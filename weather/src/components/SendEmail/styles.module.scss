@@ -1,0 +1,28 @@
+.contactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        padding: 20px;
+    form {
+        background-color: #fff;
+            padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        border: 1px solid #000;
+        border-radius: 8px;
+    }
+    input {
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 3px;
+    }
+    textarea {
+        resize: none;
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 3px;
+    }
+}
