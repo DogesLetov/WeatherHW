@@ -2,12 +2,14 @@
 
 .weather {
     font-family: "Montserrat", sans-serif;
-    height: 400px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding: 50px;
     background-color: #e5e5e5;
+    gap: 10px;
 }
 
 input {
@@ -20,6 +22,10 @@ button {
     padding: 5px;
     background-color: #00aeff;
     color: #fff;
+
+    &:hover {
+        background-color: #0077ae;
+    }
 }
 
 h1 {
@@ -50,7 +56,7 @@ h2 {
 
 .suggestions {
     top: 30px;
-    width: 280px;
+    width: 100%;
     position: absolute;
 
     li {
@@ -72,7 +78,7 @@ h2 {
 }
 
 .night {
-    background: linear-gradient(0deg,rgba(9, 0, 92, 1) 0%, rgba(83, 77, 141, 1) 26%, rgba(207, 204, 255, 1) 72%);
+    background: linear-gradient(0deg, rgba(9, 0, 92, 1) 0%, rgba(83, 77, 141, 1) 26%, rgba(207, 204, 255, 1) 72%);
     border-radius: 5px;
     margin-top: 20px;
     padding: 10px;

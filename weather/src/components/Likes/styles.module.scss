@@ -1,0 +1,16 @@
+.likes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.likesContent {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+}

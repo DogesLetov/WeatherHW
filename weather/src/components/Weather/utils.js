@@ -1,3 +1,4 @@
+
 export function getFlag(countryCode) {
   if (!countryCode) return "🏳️";
   return countryCode
