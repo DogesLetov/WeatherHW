@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./styles.module.scss"
 
 export default function Map() {
@@ -8,7 +7,6 @@ export default function Map() {
        width="400" 
        height="250" 
        frameborder="0">
-
        </iframe>
         </div>)
 }

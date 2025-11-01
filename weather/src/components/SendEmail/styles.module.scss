@@ -2,21 +2,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-        padding: 20px;
+    padding: 20px;
+    h2 {
+        text-align: center;
+        font-size: 25px;
+        @media (max-width: 360px) {
+            font-size: 20px;
+        }
+    }
+
     form {
         background-color: #fff;
-            padding: 20px;
+        padding: 20px;
         display: flex;
         flex-direction: column;
         gap: 5px;
         border: 1px solid #000;
         border-radius: 8px;
     }
+
     input {
         border: 1px solid #000;
         border-radius: 5px;
         padding: 3px;
+        font-size: 20px;
+        @media (max-width: 360px) {
+            font-size: 15px;
+        }
     }
+
     textarea {
         resize: none;
         max-width: 100%;

@@ -2,19 +2,46 @@
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-    img {
-        width: 25%;
+    white-space: nowrap;
+    background-color: rgb(78, 140, 255);
+    border-radius: 0px 0px 10px 10px;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
+    img {
+        width: 25vh;
+    }
+
     .buttonContainer {
         display: flex;
         gap: 10px;
         font-size: 20px;
         align-items: center;
+
         button {
             height: fit-content;
             padding: 5px 10px;
             border-radius: 5px;
             border: none;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 15px;
+
+            button {
+                padding: 5px;
+            }
+        }
+
+        @media (max-width: 360px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
         }
     }
 }
